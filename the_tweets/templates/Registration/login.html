@@ -1,0 +1,66 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+    Login Page
+{% endblock title %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h3>Login</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <a class="btn btn-primary" href="{% url 'register' %}">Register Here</a>
+                            <a class="btn btn-info fw-bold mx-3" href="{% url 'password_reset' %}">Forgot Password</a>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        border: none;
+    }
+    .card-header {
+        background-color: #007bff;
+        color: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .card-body {
+        padding: 2rem;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 0.5rem 2rem;
+        font-size: 1rem;
+        border-radius: 5px;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+    .form-control {
+        border-radius: 5px;
+    }
+</style>
+{% endblock content %}

@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block title %}
+Tweet Form
+{% endblock title %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header text-center fw-bold">
+                    {% if form.instance.pk %}
+                        Edit Tweet
+                    {% else %} 
+                        Create New Tweet  
+                    {% endif %}
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <div class="text-center mt-3">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Custom CSS for Textbox -->
+<style>
+    .custom-textarea {
+        resize: none;
+        height: 150px;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 10px;
+        border: 1px solid #ced4da;
+    }
+    .custom-textarea:focus {
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+    }
+</style>
+{% endblock content %}
