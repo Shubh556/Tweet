@@ -1,4 +1,4 @@
-# Twitter Clone Django Application
+# Tweets Application
 
 This project is a basic Twitter-like web application where users can register, log in, and create, edit, or delete tweets with text and images. This project uses email activation for account verification. You need to configure SMTP settings to send emails.
 
