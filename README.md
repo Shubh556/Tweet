@@ -5,11 +5,16 @@ This project is a basic Twitter-like web application where users can register, l
 
 ## App Functionality
 
-- **Registration :** Users can register by filling in a form with their username, email, and password. A verification email is sent to the user with an activation link.
-- **Account Activation :** The user must activate their account via the email link.
-- **Login :** Users can log in using their username and password.
-- **Tweeting :** Authenticated users can create, edit, and delete tweets. Tweets can contain text (up to 200 characters) and an image.
-- **Tweet Display :** All tweets are displayed in reverse chronological order on the homepage.
+- 🔐 User Registration : Users can sign up with a form (username, email, and password)
+- 📧 Email Activation : After registration, users receive an email with an activation link
+- ✅ Account Activation : Users must verify their account via the activation link before logging in
+- 🔓 Login : Registered users can log in with their username and password
+- 📝 Tweeting : Authenticated users can create, edit, or delete tweets (up to 200 characters)
+- 🖼️ Image Support : Tweets can include images along with text
+- 🗒️ Tweet Display : Tweets appear on the homepage in reverse chronological order
+- 🔑 Forgot Password : Users can reset their password by clicking "Forgot Password." An email with a reset link is sent to their registered email for easy password change
+- 🔓 Change Password: Users can change their password when they are loged in 
+- ✉️ SMTP Configuration : Email system setup required for sending Activation/Forgot Password emails
 
 
 ## Technologies Used
