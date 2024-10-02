@@ -13,7 +13,7 @@ This project is a basic Twitter-like web application where users can register, l
 - 🖼️ Image Support : Tweets can include images along with text
 - 🗒️ Tweet Display : Tweets appear on the homepage in reverse chronological order
 - 🔑 Forgot Password : Users can reset their password by clicking "Forgot Password." An email with a reset link is sent to their registered email for easy password change
-- 🔓 Change Password: Users can change their password when they are loged in 
+- 🔓 Change Password : Users can change their password when they are loged in 
 - ✉️ SMTP Configuration : Email system setup required for sending Activation/Forgot Password emails
 
 
