@@ -14,7 +14,6 @@ from django.conf import settings
 from django.http import HttpResponse
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import PasswordChangeForm
-from django.contrib import messages
 
 
 User = get_user_model()
