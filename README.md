@@ -3,7 +3,7 @@
 This project is a basic Twitter-like web application where users can register, log in, and create, edit, or delete tweets with text and images. This project uses email activation for account verification. You need to configure SMTP settings to send emails.
 
 
-## App Functionality
+## Web App Functionality
 
 - 🔐 User Registration : Users can sign up with a form (username, email, and password)
 - 📧 Email Activation : After registration, users receive an email with an activation link
