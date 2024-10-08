@@ -41,3 +41,26 @@ Create a .env file in the project root to store environment variables like the S
 
 - When you clone or download this repo, simply open Vs code or any editor you like, and in that editor, open the terminal and type **cd the_tweets**
 
+
+## Sign Up Page 
+![Home Pages1](https://github.com/Shubh556/Tweet/blob/main/Images/register.png?raw=true)
+
+## Login Page 
+![Home Pages1](https://github.com/Shubh556/Tweet/blob/main/Images/login.png?raw=true)
+
+## Home Page
+![Home Pages1](https://github.com/Shubh556/Tweet/blob/main/Images/home.png?raw=true)
+
+## Create Page 
+![Home Pages1](https://github.com/Shubh556/Tweet/blob/main/Images/create.png?raw=true)
+
+## Edit Page 
+![Home Pages1](https://github.com/Shubh556/Tweet/blob/main/Images/edit.png?raw=true)
+
+## Delete Page 
+![Home Pages1](https://github.com/Shubh556/Tweet/blob/main/Images/delete.png?raw=true)
+
+## Change Password
+![Home Pages1](https://github.com/Shubh556/Tweet/blob/main/Images/change%20passward.png?raw=true)
+
+
